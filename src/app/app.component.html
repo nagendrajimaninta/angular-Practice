@@ -1,0 +1,30 @@
+<!-- <app-json-form></app-json-form> -->
+<!-- <button mat-raised-button color="warn" (click)="greet($event)">Parent Component</button>
+<app-first (greetEvent)="greet($event)"></app-first> -->
+<!-- <h1>Parent Component ==> {{title}}</h1>
+<h3>Child Component Data we are using in side parent component ==> {{data12}}</h3>
+
+<hr> -->
+<!-- <app-first (datatoParent)="receive($event)" [title]="title"></app-first> -->
+<!-- <div app-first></div>
+<h3>Angular Template defines the UI Of your Application </h3>
+<h1>We Have inline and External template</h1>
+<button>first</button>
+<h1>Down there is a example of String Interpolation</h1> -->
+<!-- <ul>
+  <li *ngFor="let a of name">
+    Name : {{a.name}}, Age : {{a.age}} ,Description :{{a.description}}
+  </li>
+</ul> -->
+<!-- <div>
+  {{obj.name1}}
+  {{obj.name2}}
+</div> -->
+<!-- <div *ngFor="let a of myArr">{{a}}</div> -->
+<div *ngIf="myArr ; then temp1 else temp2">First</div>
+<ng-template #temp1>this is the else block</ng-template>
+<ng-template #temp2>This is then block</ng-template>
+<h1>Property Binding is Basically The Data From the Component to the View</h1>
+<img src="{{whatsLogo}}"/>
+<img [src]="whatsLogo"/>
+<img bind-src="whatsLogo"/>

@@ -1,0 +1,57 @@
+<!-- < --><!-- h1>Child Component</h1>
+<p>output decorator! :==> How a child component can communicate to the parent component</p>
+<button mat-raised-button (greetEvent)="callparent()">Send</button> -->
+<!-- <h1>CHild Component</h1>
+<button (click)="callparent()">Parent Component</button> -->
+<!-- <h2>Child Component</h2>
+<h1>Data Comming From Parent Component : {{title}}</h1>
+<button (click)="sendDataFromChild()">Send</button>
+<input type="text" value="" #templateReference ngModel/>
+<h4>Hello : {{templateReference.value}}</h4>
+<div>Directives are instructions to the DOM</div>
+<button *ngIf="!logedIn">Login</button>
+<button *ngIf="logedIn">LogOut</button>
+<app-tsFile></app-tsFile>
+<ol>
+    <li *ngFor="let a of names">{{names}}</li>
+</ol> -->
+<!-- <ol>
+    <li *ngFor="let b of cars">{{b.id}} : {{b.name}} : {{b.speed}}</li>
+</ol>
+<h4>attibute directives in angular : change the html and component 2 attribue Directives ngstyle and ngclass</h4>
+<button [ngStyle]="{coor:getColor(),background:getColor()}">attibute</button>
+<button [ngClass]="{red:hello}">NgClass</button>
+<h2>ngSwitch :Compares the structural and attribute directive</h2> -->
+<!-- <select (change)="setVal($event)">
+    <option value="">Select</option>
+    <option value="BMW">BMW</option>
+    <option value="BENZ">BENZ</option>
+    <option value="AUDIO">AUDIO</option>
+    <option value="ANOTHER">ANOTHER</option>
+</select> -->
+<!-- <div [ngSwitch]="choose">
+    <h3 *ngSwitchCase="'BMW'">Famous Brand</h3>
+    <h3 *ngSwitchCase="'BENZ'">Vary Famous Brand</h3>
+    <h3 *ngSwitchCase="'AUDIO'">Little Bit Famous Brand</h3>
+    <h3 *ngSwitchDefault="'ANOTHER'">OK Famous Brand</h3>
+</div> -->
+<!-- name="Nagendra";
+date=new Date();
+amount=40; -->
+<!-- <h3>name : {{ name | uppercase}}</h3>
+<h3>name : {{ name | slice:3}}</h3>
+<h3>name : {{ name | lowercase}}</h3>
+<h3>name : {{ name | titlecase}}</h3>
+<h3>date :{{date | date:"d/m/y"}}</h3>
+<h3>date :{{date | date:"shortTime"}}</h3>
+<h3>date :{{date | date:"fullDate" | uppercase}}</h3>
+<h3>date :{{date}}</h3>
+<h3>amount :{{amount |currency:"INR"}}</h3>
+<h3>amount :{{amount |currency:"USD"}}</h3>
+<h3>amount :{{amount |currency:"EUR" :"code"}}</h3> -->
+
+<!-- <h1>{{0.85 | percent}}</h1> -->
+<ul>
+    <li *ngFor="let a of empdata">{{a.id}} {{a.Salary}} {{a.Name}}</li>
+</ul>
+

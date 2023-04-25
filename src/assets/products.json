@@ -1,0 +1,266 @@
+{
+    "id": "",
+    "title": "Product Details",
+    "uxClass": "custFontFamilyMuliBold",
+    "key": "table",
+    "key2": "planText1",
+    "des1": "Y",
+    "status": "Completed",
+    "btn": [
+        {
+            "title": "Reject",
+            "value": [
+                {
+                    "id": "",
+                    "title": "Select reason",
+                    "cssx": "colSize6",
+                    "uxClass": "custFontFamilyMuliBold",
+                    "type": "select",
+                    "value": [
+                        {
+                            "id": "",
+                            "title": "Select",
+                            "cssx": "colSize6",
+                            "uxClass": "custFontFamilyMuliBold",
+                            "type": "select"
+                        },
+                        {
+                            "id": "",
+                            "title": "Spelling mistake",
+                            "cssx": "colSize6",
+                            "uxClass": "custFontFamilyMuliBold",
+                            "type": "select"
+                        },
+                        {
+                            "id": "",
+                            "title": "Address details different",
+                            "cssx": "colSize6",
+                            "uxClass": "custFontFamilyMuliBold",
+                            "type": "select"
+                        },
+                        {
+                            "id": "",
+                            "title": "Name mismatch",
+                            "cssx": "colSize6",
+                            "uxClass": "custFontFamilyMuliBold",
+                            "type": "select"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Approve"
+        }
+    ],
+    "value": [
+        {
+            "Delivery/Segment": {
+                "id": "",
+                "title": "Equity Cash",
+                "icon": "/assets/icon/Group 24872.svg",
+                "type": "",
+                "cssx": "",
+                "uxClass": "",
+                "des": [],
+                "key": "",
+                "validators": "",
+                "options": [],
+                "value": ""
+            },
+            "BSE": {
+                "id": "",
+                "title": "",
+                "icon": "/assets/icon/Group 24872.svg",
+                "type": "",
+                "cssx": "",
+                "uxClass": "",
+                "des": [],
+                "key": "",
+                "validators": "",
+                "options": [],
+                "value": ""
+            },
+            "NSE": {
+                "id": "",
+                "title": "",
+                "icon": "/assets/icon/Group 24872.svg",
+                "type": "",
+                "cssx": "",
+                "uxClass": "",
+                "des": [],
+                "key": "",
+                "validators": "",
+                "options": [],
+                "value": ""
+            },
+            "MCX": {
+                "id": "",
+                "title": "",
+                "icon": "/assets/icon/Group 24872.svg",
+                "type": "",
+                "cssx": "",
+                "uxClass": "",
+                "des": [],
+                "key": "",
+                "validators": "",
+                "options": [],
+                "value": ""
+            },
+            "NCDEX": {
+                "id": "",
+                "title": "",
+                "icon": "/assets/icon/Group 24872.svg",
+                "type": "",
+                "cssx": "",
+                "uxClass": "",
+                "des": [],
+                "key": "",
+                "validators": "",
+                "options": [],
+                "value": ""
+            },
+            "SLB": {
+                "id": "",
+                "title": "",
+                "icon": "/assets/icon/Group 24872.svg",
+                "type": "",
+                "cssx": "",
+                "uxClass": "",
+                "des": [],
+                "key": "",
+                "validators": "",
+                "options": [],
+                "value": ""
+            }
+        }
+    ],
+    "value2": [
+        {
+            "title": "BO :",
+            "cssx": "colSize12",
+            "des": "",
+            "options": [
+                {
+                    "title": "Yes",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "No",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "I agree with BO",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "checkbox"
+                },
+                {
+                    "title": "Terms and Conditions",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "link"
+                }
+            ]
+        },
+        {
+            "title": "MTF :",
+            "cssx": "colSize12",
+            "des": "",
+            "options": [
+                {
+                    "title": "Yes",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "No",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "I agree with MTF",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "checkbox"
+                },
+                {
+                    "title": "I agree with the Rights Obligations of Margin Trading Facility.",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "link"
+                }
+            ]
+        },
+        {
+            "title": "Demat profile :",
+            "cssx": "colSize12",
+            "des": "",
+            "options": [
+                {
+                    "title": "BSDA",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "NonBSDA",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "Life Time Free DP AMC",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                }
+            ]
+        },
+        {
+            "title": "Plan :",
+            "cssx": "colSize12",
+            "des": "",
+            "options": [
+                {
+                    "title": "IP",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "STP",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                },
+                {
+                    "title": "TP",
+                    "cssx": "colSize12",
+                    "des": "",
+                    "type": "radio"
+                }
+            ]
+        },
+        {
+            "title": "Product Name:",
+            "cssx": "colSize12",
+            "des": "Premium 2",
+            "type": "input",
+            "options": []
+        },
+        {
+            "title": "Plan Details:",
+            "cssx": "colSize12",
+            "des": "SAC Premium-2",
+            "type": "input",
+            "options": []
+        }
+    ]
+}
